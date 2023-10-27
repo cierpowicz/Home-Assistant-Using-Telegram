@@ -1,0 +1,5 @@
+
+
+
+print("KURWA MAC")
+
