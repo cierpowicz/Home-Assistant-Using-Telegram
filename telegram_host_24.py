@@ -1,6 +1,5 @@
 from telegram.ext import *
     
-HOME_BOT = Kurwanw()
 
 
 TOKEN = '6505554156:AAHQbeY41GEUrc6vrJ3jtdvnVb-TAVgAT14'

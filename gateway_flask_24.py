@@ -1,6 +1,51 @@
 import mysql.connector
 from flask import Flask, request, jsonify
 
+
+
+class Program_Flask():
+
+    def __init__(self):
+        self.program_ID = 1
+        self.program_name = "Najlepszy Alarm Domowy !"
+        self.status = 0
+        self.last_update = "12:33 12.12.2022" 
+
+
+    def return_hello(self):
+        return "Siemanko !!!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app = Flask(__name__)
 """
 db = mysql.connector.connect(
@@ -31,9 +76,3 @@ def receive_data():
 
 
     return jsonify(message="Dane odebrane przez serwer")
-
-
-
-if __name__ == '__main__':
-    print("START")
-    app.run(host='0.0.0.0', port=5001)
